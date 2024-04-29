@@ -1,0 +1,187 @@
+body {
+    background-color: #d7a1df; /* Cor de fundo  */
+}
+
+/* Reseta margin e padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* estilo para o header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* estilo para a foto */
+#foto {
+    max-width: 200px; 
+    margin-left: 20px; 
+}
+
+/* estilo para a navegação */
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+/*  para os botões de link */
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #2c0202;
+}
+
+/*  para a seção "Sobre Mim" */
+#sobre {
+   text-align: center;
+   margin-top: 50px;
+}
+#sobre img {
+    margin-right: 200px;
+}
+ 
+ h1, h2, h3, h4 p {
+    margin: 50 auto;
+    padding: 20;
+}
+#sobre p {
+    text-align: justify;
+    margin: 0 auto;
+    width: 50%;
+    flex: 1;
+    color: rgb(12, 1, 19);
+}
+
+.text {
+    text-align: center;
+  }
+  
+
+  .image {
+    margin-left: 20px; 
+  }
+  
+ /*  o cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Estilo para a imagem */
+#foto {
+    max-width: 200px; /* Ajuste de acordo com o tamanho da sua foto */
+    margin-left: 20px; /* Espaçamento da margem esquerda */
+}
+
+/* Estilo para a navegação */
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+/* os links na navegação */
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #1e555f;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/*  editar a seção "Hobbies" */
+#hobbies {
+    text-align: center;
+    margin-top: 70px;
+    color: #051c29;
+}
+
+/* modificar cada hobby */
+.hobby {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/*  editar o aquivo hobbies */
+.hobby p {
+    margin-right: 20px;
+}
+
+/*  imagens dos hobbies */
+.hobby img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+ /*editar o arquivo  formaçao */
+#formacao {
+    text-align: center;
+}
+
+#formacao h2 {
+    font-size: 24px;
+    color: #0a1301;
+}
+
+#formacao p {
+    font-size: 19px;
+    color: #080808;
+}
+
+#formacao ul {
+    margin-top: 20px;
+}
+
+#formacao ul li {
+    margin-bottom: 60px;
+    color: #02000a;
+}
+
+
+
+#portfolio {
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-size: 24px;
+    color: #040224;
+}
+
+#portfolio p {
+    font-size: 16px;
+    color: #030000;
+    margin-bottom: 20px;
+}
+
+
+/* editar os  botão */
+#portfolio button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: 1px solid #ece5e5;
+    border-radius: 5px;
+    background-color: #eee0e0fa;
+    color: #b40707;
+    text-decoration: none;
+}
+
